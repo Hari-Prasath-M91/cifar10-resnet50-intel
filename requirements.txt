@@ -1,0 +1,16 @@
+# Intel GPU extensions and support packages (required only for use with Intel XPU)
+intel-cmplr-lib-rt
+intel-cmplr-lib-ur
+intel-cmplr-lic-rt
+intel-sycl-rt
+
+# Additional dependencies
+matplotlib
+numpy
+seaborn
+scikit-learn
+pandas
+
+# Build tools (if needed)
+cmake
+ninja
