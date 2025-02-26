@@ -100,7 +100,7 @@ After training the model for 20 epochs, the following performance metrics were o
 - **Weighted Recall:** 60.99%
 - **Weighted F1-Score:** 60.55%
 
-These metrics provide a baseline for the model's performance on CIFAR-10 with the current configuration.
+These metrics provides a baseline for the model's performance on CIFAR-10 with the current configuration.
 
 ## License
 
