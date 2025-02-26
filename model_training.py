@@ -44,7 +44,7 @@ if __name__ == "__main__":
     model = torchvision.models.resnet50().to("xpu", non_blocking=True)
     for param in model.conv1.parameters():
         param.requires_grad = False
-    model.fc = torch.nn.Linear(model.fc.in_features, 1000).to('xpu', non_blocking=True)
+    model.fc = torch.nn.Linear(model.fc.in_features, 10).to('xpu', non_blocking=True)
 
     criterion = torch.nn.CrossEntropyLoss().to('xpu', non_blocking=True)
     optimizer = torch.optim.SGD(model.parameters(), lr=LR, momentum=0.9)
