@@ -42,7 +42,13 @@ cd your-repo
 
 ### Install Dependencies
 
-All required packages (including PyTorch 2.5 with Intel GPU support) are listed in `requirements.txt`. Install them with:
+Use this to download the Pytorch Module for use with Intel XPU's
+
+```bash
+pip install --pre torch torchvision torchaudio --index-url https://download.pytorch.org/whl/nightly/xpu
+```
+
+All the remaining required packages are listed in `requirements.txt`. Install them with:
 
 ```bash
 pip install -r requirements.txt
