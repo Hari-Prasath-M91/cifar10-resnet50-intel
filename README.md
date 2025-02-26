@@ -48,6 +48,12 @@ Use this to download the Pytorch Module for use with Intel XPU's
 pip install --pre torch torchvision torchaudio --index-url https://download.pytorch.org/whl/nightly/xpu
 ```
 
+If you're not running the code on Intel XPU's, run this instead
+
+```bash
+pip install torch torchvision torchaudio
+```
+
 All the remaining required packages are listed in `requirements.txt`. Install them with:
 
 ```bash
