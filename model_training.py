@@ -27,7 +27,7 @@ if __name__ == "__main__":
         root=DATA,
         train=True,
         transform=transform,
-        download=False,  # If Dataset already downloaded
+        download=True,  # Set to false if Dataset already downloaded
     )
     train_loader = torch.utils.data.DataLoader(
         dataset=train_dataset,
