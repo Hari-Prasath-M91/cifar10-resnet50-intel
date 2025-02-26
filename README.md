@@ -54,7 +54,7 @@ If you're not running the code on Intel XPU's, run this instead
 pip install torch torchvision torchaudio
 ```
 
-All the remaining required packages are listed in `requirements.txt`. Install them with:
+All the remaining required packages are listed in [requirements.txt](requirements.txt). Install them with:
 
 ```bash
 pip install -r requirements.txt
