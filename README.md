@@ -12,11 +12,6 @@ The CIFAR-10 dataset consists of 60,000 32×32 color images in 10 classes. In th
 - **Incremental Training**: Each run trains for one epoch and saves the model state to `checkpoint.pth`, so the next run continues from the following epoch
 - **Intel XPU Support**: Accelerated training on Intel GPUs
 
-> **Note**: By default, ResNet50 outputs 1000 classes (ImageNet). To adapt it for CIFAR-10, change the final layer:
-> ```python
-> model.fc = torch.nn.Linear(model.fc.in_features, 10)
-> ```
-
 ## Table of Contents
 
 - [Getting Started](#getting-started)
